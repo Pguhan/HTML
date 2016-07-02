@@ -1,0 +1,149 @@
+*{
+box-sizing:border-box;
+overflow:auto;
+}
+h1{
+text-align:center;
+color:black;
+font-family:Georgia,serif;
+margin-bottom:100px;
+font-size:50px;
+top:40px;
+text-shadow:2px 2px #666666;
+}
+h3{
+font-family:Georgia;
+}
+div#big1{
+background-color:#f9ecf2;
+color:black;
+border:1px solid black;
+margin-bottom:20px;
+width:30%;
+height:30%;
+margin-right:20px;
+margin-left:15px;
+font-size:20px;
+float:left;
+font-family:Times;
+padding-left:10px;
+}
+div#big2{
+background-color:#d9ffcc;
+color:black;
+border:1px solid black;
+margin-bottom:20px;
+width:30%;
+height:30%;
+margin-right:20px;
+margin-left:10px;
+font-size:20px;
+float:left;
+font-family:Times;
+padding-left:10px;
+}
+div#big3{
+background-color:#e6f3ff;
+color:black;
+border:1px solid black;
+margin-bottom:20px;
+width:30%;
+height:30%;
+margin-right:20px;
+margin-left:10px;
+font-size:20px;
+float:left;
+font-family:Times;
+padding-left:10px;
+
+}
+
+section{
+clear:right;
+font-family:Times;
+padding-right:10px;
+}
+#indianbread{
+top:0px;
+color:#660029;
+background-color:#ff80b3;
+width:55%;
+float:right;
+text-align:center;
+border:1px solid black;
+position:relative;
+height:3%;
+margin-right:0px;
+margin-bottom:10px;
+}
+
+#curries{
+color:#008000;
+background-color:#ccff33;
+width:55%; 
+float:right; 
+text-align:center;
+border:1px solid black;
+height:3%;
+margin-right:0px;
+margin-bottom:10px;
+}
+#desserts{
+color:#0066cc;
+background-color:#99ccff;
+width:55%;
+float:right;
+text-align:center;
+border:1px solid black;
+height:3%;
+margin-right:0px;
+margin-bottom:10px;
+}
+
+/*simple responsive framework*/
+.row{
+width:100%;
+}
+
+/*large devices only*/
+@media (min-width:992px)
+{
+  div{
+   width:30%;
+   height:30%;
+  } 
+
+}
+/*medium devices only*/
+@media (min-width:768px) and (max-width:991px)
+{
+  div#big1{
+   width:45%;
+   float:left;
+   margin-left:15px;
+   
+   }
+  div#big2{
+   width:45%;
+   float:left;
+   margin-left:20px;
+  }
+  div#big3{
+   width:95%;
+   margin-left:15px;
+  }
+} 
+/*small devices only*/
+@media (max-width:767px)
+{
+ div#big1{
+ width:95%;
+ 
+ }
+ div#big2{
+ width:95%;
+ }
+ div#big3{
+ width:95%;
+ }
+} 
